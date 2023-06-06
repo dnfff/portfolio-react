@@ -22,50 +22,51 @@ const Skills = () => {
         <div>
             <Header />
 
-            <main className="section" id="sect">
-            <div className="header__wrapper">
+            <main className="section2" id="sect">
+            <header className="header3">
+            <div className="header__wrapper3">
                 <h1 className="header__title">
-                    <strong><em>About Me</em></strong><br/>
+                    <strong><em>About Me</em></strong><br/> 
                 </h1>
-                <div className="head">
-                    <div className="header__block">
-
-                    <div className="header__block2">
-                        <h1>Skills</h1>
-                            <div className="firstline">
-                                <div className="imagess">
-                                    <img src={Html1} alt="" />
-                                </div>
-
-                                <div className="imagess">
-                                    <img src={Css} alt="" />
-                                </div>
-                                <div className="imagess">
-                                    <img src={Js} alt="" />
-                                </div>
-                            </div>
-
-                            <div className="secondline">
-                                <div className="imagess">
-                                    <img src={Git} alt="" />
-                                </div>
-                                <div className="imagess">
-                                    <img src={Node} alt="" />
-                                </div>
-                                <div className="imagess">
-                                    <img src={React} alt="" />
-                                </div>
-                            </div>
-                    </div> 
-                        <NavLink to="/" className="btn">
-                            <img src={left} className="down2"></img>
-                        </NavLink>
-                    </div>
+                <div className="header__text">
+                    <p>Skills</p>
                 </div>
+        <div className="col1">
+                <div className="header__block__u2">
+                    <img src={Html1} alt="" />
                 </div>
-                </main>
+                
+                <div className="header__block__u2">
+                    <img src={Css} alt="" />
+                </div>
+                
+                <div className="header__block__u2">
+                    <img src={Js} alt="" />
+                </div>
+        </div> 
+        <div className="col2">
+                <div className="header__block__u2">
+                    <img src={Git} alt="" />
+                </div>
+                
+                <div className="header__block__u2">
+                    <img src={Node} alt="" />
+                </div>
+                
+                <div className="header__block__u2">
+                    <img src={React} alt="" />
+                </div>
+        </div> 
+                <NavLink to="/" className="btn">
+                    <img src={left} className="down2"></img>
+                </NavLink>
+                {/* <a href="#sect" className="btn"><img src={left} className="down"></img></a> */}
+            </div>
+            </header>
+
             <Footer />
-        </div>
+            </main>
+            </div>
     );
 }
 
