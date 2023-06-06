@@ -266,7 +266,7 @@ html, body {
 .header__block__u {
     width: 100%;
     margin-bottom: 50px;
-    border: solid 2px #c7c7c7;
+    border: solid 1px #c7c7c7;
     border-radius: 5%;
     display: flex;
     justify-content: center;
@@ -274,7 +274,6 @@ html, body {
     flex-direction: column;
     padding: 15px 25px;
     color: var(--white);
-    gap: 15px;
     background-image: url("/src/img/19852122_6195005.jpg");
     background-repeat: no-repeat;
     background-size: 350%;
