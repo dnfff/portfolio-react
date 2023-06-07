@@ -106,7 +106,7 @@ html, body {
     flex-wrap: wrap;
     row-gap: 10px;
     align-items: center;
-    column-gap: 40px;
+    column-gap: 25px;
     font-size: 16px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -713,25 +713,26 @@ html, body {
 .col1 {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 35%;
 
 }
 .col2 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    width: 100%;
+    width: 35%;
 }
 
 .header__block__u2 {
-    width: 170px;
+    width: 50%;
+    /* height: 5; */
     margin: 20px;
     border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 15px 25px;
+    padding: 20px 20px;
     color: var(--white);
 
     background-image: url("/src/img/19852122_6195005.jpg");
