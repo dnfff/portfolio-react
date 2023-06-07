@@ -713,26 +713,26 @@ html, body {
 .col1 {
     display: flex;
     justify-content: center;
-    width: 35%;
+    width: 45%;
 
 }
 .col2 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    width: 35%;
+    width: 45%;
 }
 
 .header__block__u2 {
-    width: 50%;
-    /* height: 5; */
+    width: 100%;
+    /* height: 50px; */
     margin: 20px;
     border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 20px;
+    padding: 5px 5px;
     color: var(--white);
 
     background-image: url("/src/img/19852122_6195005.jpg");
