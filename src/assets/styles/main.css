@@ -713,14 +713,14 @@ html, body {
 .col1 {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 30rem;
 
 }
 .col2 {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    width: 100%;
+    width: 30rem;
 }
 
 .header__block__u2 {
