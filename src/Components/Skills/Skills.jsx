@@ -31,6 +31,7 @@ const Skills = () => {
                 <div className="header__text">
                     <p>Skills</p>
                 </div>
+    <div className="allcol">
         <div className="col1">
                 <div className="header__block__u2">
                     <img src={Html1} alt="" />
@@ -57,6 +58,7 @@ const Skills = () => {
                     <img src={React} alt="" />
                 </div>
         </div> 
+    </div>
                 <NavLink to="/" className="btn">
                     <img src={left} className="down2"></img>
                 </NavLink>
