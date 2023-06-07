@@ -1,21 +1,12 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
 
-/*
-font-family: 'DM Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-*/
-
-/* * {
-    border: 1px solid red;
-} */
-
 :root {
     --blackpure: #000;
     --black: #171718;
     --black-border: #26292D;
-    --white: #fff;
-    --purple: #5C62EC;
+    --white: #ffffff;
+    --purple: #61ec5c;
 
     --text-color: var(--black);
 
@@ -23,20 +14,9 @@ font-family: 'Poppins', sans-serif;
     --dark-border: var(--black-border);
     --header-text: var(--white);
     --accent: var(--purple);
-
-    /* Light mode */
-    --page-bg: var(--white);
-    --text-color: var(--black);
-
-    --title-1: var(--accent);
-
-    --project-card-bg: var(--white);
-    --project-card-text: var(--black);
-    --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
 }
 
 .dark {
-     /* Dark mode */
     --page-bg: #252526;
     --text-color: var(--white);
 
@@ -54,11 +34,6 @@ html, body {
 
     font-family: 'DM Sans', sans-serif;
     letter-spacing: -0.5px;
-
-    /* Light mode */
-    background-color: var(--page-bg);
-    color: var(--text-color);
-    scroll-behavior: smooth;
 }
 
 /* General */
@@ -219,7 +194,6 @@ html, body {
 
     background-color: var(--dark-bg);
     background-image: url("/src/img/19852122_6195005.jpg");
-    /* BACKGROUND-ATTACHMENT: FIXED; */
     background-repeat: no-repeat;
     background-size: 220%;
     background-position: center center;
@@ -253,7 +227,6 @@ html, body {
 .header__block {
     height: 90vh;
     width: 75%;
-    /* padding: 15px 20px; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -291,7 +264,6 @@ html, body {
 .header__block2 {
     height: 62vh;
     width: 50%;
-    /* padding: 15px 25px; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -313,7 +285,6 @@ html, body {
   }
 
 .header__title {
-    /* margin-bottom: 20px; */
     font-size: 40px;
     font-weight: 700;
     line-height: 1.4;
@@ -500,7 +471,7 @@ html, body {
 
 .social {
     display: flex;
-    column-gap: 30px;
+    column-gap: 25px;
     align-items: center;
 }
 
@@ -591,6 +562,10 @@ html, body {
     .social__item {
         width: 28px;
     }
+    .social__item2 {
+        width: 37px;
+        border-radius: 50px;
+    }
 
 }
 
@@ -599,14 +574,12 @@ html, body {
     width: 100%;
     height: 150px;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     margin-top: 45px;
 }
 
 .imagess {
-    /* margin-left: 20px; */
     height: 90px;
     width: 90px;
 }
@@ -615,7 +588,6 @@ html, body {
     width: 100%;
     height: 50%;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
 }
@@ -623,11 +595,9 @@ html, body {
 .contacts {
     height: 69vh;
     width: 100%;
-    /* background-color: #000ed4; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .contacts h1 {
@@ -641,7 +611,6 @@ html, body {
 
 .contact_text {
     font-size: 1.5em;
-    /* margin-top: 45px; */
     gap: 10px;
     text-decoration: none;
     
@@ -684,7 +653,6 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
 }
 
 
@@ -707,7 +675,7 @@ html, body {
 
 .header__wrapper2 {
     padding: 0 15px;
-    width: 100%;
+    width: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -732,7 +700,7 @@ html, body {
 
 .header__wrapper3 {
     padding: 0 15px;
-    /* width: 400px; */
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -744,16 +712,20 @@ html, body {
 
 .col1 {
     display: flex;
+    justify-content: center;
+    width: 100%;
+
 }
 .col2 {
     display: flex;
+    justify-content: center;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 .header__block__u2 {
     width: 170px;
     margin: 20px;
-    /* border: solid 2px #c7c7c7; */
     border-radius: 5%;
     display: flex;
     justify-content: center;
@@ -767,3 +739,4 @@ html, body {
     background-size: 350%;
     background-position: center center;
 }
+
